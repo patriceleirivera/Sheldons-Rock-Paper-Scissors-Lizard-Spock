@@ -1,0 +1,52 @@
+body {
+    background-color: #F7F7F7;
+  }
+  
+
+  .selections {
+    display: flex;
+    justify-content: left;
+    position: relative;
+  }
+  
+  .selection {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border-width: 2px;
+    border-style: solid;
+    cursor: pointer;
+    font-size: 4rem;
+    transition: 100ms;
+    margin: 20px;
+    opacity: 0.8;
+    outline: none !important;
+    box-shadow: none;
+  }
+
+  .selection > p{
+    font-size: 25px;
+
+  }
+  
+  .selection:hover {
+    transform: scale(1.2);
+    opacity: 1.0;
+    
+  }
+  
+.centerResult{
+  font-size: 22px;
+  text-align: center;
+}
+
+.leftside, .rightside{
+   height: 600px;
+   width: 100%;
+}
+.leftside{
+  background-color: #F7F7F7;
+}
+.rightside{
+  background-color: #F7F7F7;
+}
